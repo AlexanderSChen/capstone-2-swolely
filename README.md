@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+Capstone 2 Swolely
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this app because I love coding and weightlifting. I started working out 13 years ago and only weighed 100 pounds and could barely hold a bar and now I weigh 210 pounds and just broke personal records this past month squatting 4 plates benching 3 plates and deadlifting 450 pounds. I look amazing and feel amazing, I love going to the gym and maxing out machines, it's the same feeling I get from successfully creating an app. With Swolely you can document your journey through the time tested blog. Create your legacy and look back on it with confidence by creating posts and documenting customizable workout plans and diets and share them with your friends! Get SWOLE.
 
-## Available Scripts
+### React 
+is a popular front-end library for building user interfaces. I chose React because it allows for efficient development of complex, interactive interfaces. Its component-based architecture allows us to create reusable code, making it easier to maintain and update our website.
 
-In the project directory, you can run:
+### Node.js
+is a server-side JavaScript runtime environment that I used to build our server. It has a large and active community, making it easy to find resources and support. It also allows us to use JavaScript on both the client and server-side, making it easier to write and maintain our codebase.
 
-### `npm start`
+### Express
+is a popular Node.js framework that I used to build our RESTful API. It simplifies the process of building web applications and APIs by providing a set of powerful features and tools. It also integrates well with other Node.js modules, making it easy to use with our other technologies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### PostgreSQL
+is a powerful and open-source relational database management system that we used to store and manage our data. I chose PostgreSQL because it is known for its reliability, performance, and scalability. It also supports advanced features like JSON data types, making it a good fit for our application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# APIs Used
+exerciseDB
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Overall, I chose these technologies because they are reliable, well-documented, and popular in the development community. They allowed us to build a scalable, efficient, and maintainable web application that meets our needs.
+---
+Setting up Backend Servers
+---
+Install package.json:
+npm install
 
-### `npm run build`
+Create your Virtual Environment:
+$ python3 -m venv venv
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the Virtual Environment:
+$ source venv/bin/activate
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start your PSQL database:
+$ sudo service postgresql start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create your Database in PSQL:
+$ psql
+`#` CREATE DATABASE swolely;
 
-### `npm run eject`
+Seed Swolely and poulate it with tables
+$ psql swolely < swolely.sql
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start Backend Server:
+$ nodemon server.js
+---
+Starting Frontend
+---
+Install Frontend package.json
+$ npm install
+$ npm start
+--- 
+Thank you for using Swolely! Stay Swole!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Authors
+Github: @AlexanderSChen
+Twitter: @kikikatme
+LinkedIn: Alexander-Chen
