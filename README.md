@@ -11,10 +11,10 @@ Powerful front-end library for building the user interface. I chose React becaus
 A server-side runtime environment that I used to build our server. It has a large and active community, making it easy to find resources and support. It also allows us to use JavaScript on both the client and server-side, making it easier to write and maintain the codebase.
 
 ### Express
-A Node.js framework that I used to build the RESTful API. It simplifies the process of building web applications and APIs by providing a set of powerful features and tools. It also integrates well with other Node.js modules, making it easy to use with our other technologies.
+A Node.js framework that I used to build the RESTful API. It simplifies the process of building Swolely by by providing a set of powerful and flexible features and tools. It also integrates well with other Node.js modules, making it easy to use with the other technologies.
 
 ### PostgreSQL
-is a powerful and open-source relational database management system that we used to store and manage our data. I chose PostgreSQL because it is known for its reliability, performance, and scalability. It also supports advanced features like JSON data types, making it a good fit for our application.
+A sturdy and powerful open-source relational database management system that I used to store and manage the data. I chose PostgreSQL because it is known for its reliability, performance, and scalability. It also supports advanced features like JSON data types, making it a good fit for our application.
 
 # APIs Used
 exerciseDB
