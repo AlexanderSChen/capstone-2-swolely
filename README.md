@@ -17,8 +17,10 @@ A Node.js framework that I used to build the RESTful API. It simplifies the proc
 A sturdy and powerful open-source relational database management system that I used to store and manage the data. I chose PostgreSQL because it is known for its reliability, performance, and scalability. It also supports advanced features like JSON data types, making it a good fit for our application.
 
 # APIs Used
-exerciseDB
-
+exerciseDB API\
+https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb
+Youtube search and download API\
+https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
 
 Overall, I chose these technologies because they are reliable, well-documented, and popular in the development community. They allowed us to build a scalable, efficient, and maintainable web application that meets our needs.
 ---
