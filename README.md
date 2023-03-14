@@ -22,7 +22,7 @@ https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb
 Youtube search and download API\
 https://rapidapi.com/h0p3rwe/api/youtube-search-and-download
 
-Overall, I chose these technologies because they are reliable, well-documented, and popular in the development community. They allowed us to build a scalable, efficient, and maintainable web application that meets our needs.
+Overall, I chose these technologies because they are reliable, well-documented, and popular in the development community. They allowed me to build a scalable, efficient, and maintainable web application that meets my needs.
 ---
 Setting up Backend Servers
 ---
