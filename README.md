@@ -2,7 +2,7 @@
 
 I created this app because I love coding and weightlifting. I started working out 13 years ago and only weighed 100 pounds and could barely hold a bar and now I weigh 210 pounds and just broke personal records this past month squatting 4 plates benching 3 plates and deadlifting 450 pounds. I look amazing and feel amazing, I love going to the gym and maxing out machines, it's the same feeling I get from successfully creating an app. With Swolely you can document your journey through the time tested blog. Create your legacy and look back on it with confidence by creating posts and documenting customizable workout plans and diets and share them with your friends! Get SWOLE.
 
-##Swolely is a FULL stack application that uses:
+## Swolely is a FULL stack application that uses:
 
 ### React 
 Powerful front-end library for building the user interface. I chose React because it allows for efficient development of complex, interactive interfaces. It has component-based architecture allows us to create reusable code, making it easier to maintain and update my website.
