@@ -45,16 +45,17 @@ $ psql\
 Seed Swolely and poulate it with the tables\
 $ psql swolely < swolely.sql
 
-Start Backend Server:
+Start Backend Server:\
 $ nodemon server.js
----
+
 Starting Frontend
 ---
 Install Frontend package.json
 $ npm install
 $ npm start
---- 
+
 Thank you for using Swolely! Stay Swole!
+---
 
 Authors
 Github: @AlexanderSChen
