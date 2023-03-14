@@ -1,4 +1,4 @@
-Capstone 2 Swolely
+# Capstone 2 Swolely
 
 I created this app because I love coding and weightlifting. I started working out 13 years ago and only weighed 100 pounds and could barely hold a bar and now I weigh 210 pounds and just broke personal records this past month squatting 4 plates benching 3 plates and deadlifting 450 pounds. I look amazing and feel amazing, I love going to the gym and maxing out machines, it's the same feeling I get from successfully creating an app. With Swolely you can document your journey through the time tested blog. Create your legacy and look back on it with confidence by creating posts and documenting customizable workout plans and diets and share them with your friends! Get SWOLE.
 
@@ -22,23 +22,23 @@ Overall, I chose these technologies because they are reliable, well-documented, 
 ---
 Setting up Backend Servers
 ---
-Install package.json:
+Install package.json:\
 npm install
 
-Create your Virtual Environment:
+Create your Virtual Environment:\
 $ python3 -m venv venv
 
-Start the Virtual Environment:
+Start the Virtual Environment:\
 $ source venv/bin/activate
 
-Start your PSQL database:
+Start your PSQL database:\
 $ sudo service postgresql start
 
-Create your Database in PSQL:
-$ psql
+Create your Database in PSQL:\
+$ psql\
 `#` CREATE DATABASE swolely;
 
-Seed Swolely and poulate it with tables
+Seed Swolely and poulate it with tables\
 $ psql swolely < swolely.sql
 
 Start Backend Server:
